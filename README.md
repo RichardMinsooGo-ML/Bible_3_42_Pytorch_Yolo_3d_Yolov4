@@ -44,10 +44,10 @@ https://drive.google.com/file/d/1eM9KVPcJkcgq3vynhQ--oPnTogmywrqP/view?usp=shari
 
       ${ROOT}
       ├── checkpoints/
-      │    ├── Model_yolo3d_yolov3.pth
-      │    ├── Model_yolo3d_yolov3_tiny.pth
-      │    ├── yolov3.weights
-      │    └── yolov3-tiny.weights
+      │    ├── Model_yolo3d_yolov4.pth
+      │    ├── Model_yolo3d_yolov4_tiny.pth
+      │    ├── yolov4.weights
+      │    └── yolov4-tiny.weights
 
 ### 3.2. Dataset shall contains shall contains belows.
 - [x] `detect_1` folder shall contain folders and contents.
@@ -79,7 +79,9 @@ https://drive.google.com/file/d/1eM9KVPcJkcgq3vynhQ--oPnTogmywrqP/view?usp=shari
 - [x] Detection test for `Yolo v3` with `detect_1` folder.
 
        $ python detection.py --model_def config/cfg/yolo3d_yolov3.cfg --pretrained_path checkpoints/Model_yolo3d_yolov3.pth
+       
        or       
+       
        $ python detection.py
       
 - [x] Detection test for `Yolo v3-tiny` with `detect_1` folder.
