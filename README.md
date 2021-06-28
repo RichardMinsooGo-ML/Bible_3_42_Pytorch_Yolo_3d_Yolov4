@@ -78,7 +78,7 @@ https://drive.google.com/file/d/1eM9KVPcJkcgq3vynhQ--oPnTogmywrqP/view?usp=shari
 
 - [x] Detection test for `Yolo v3` with `detect_1` folder.
 
-       $ python detection.py --model_def config/cfg/yolo3d_yolov3.cfg --pretrained_path checkpoints/Model_yolo3d_yolov3.pth
+       $ python detection.py --model_def config/cfg/yolo3d_yolov4.cfg --pretrained_path checkpoints/Model_yolo3d_yolov4.pth
        
        or       
        
@@ -86,7 +86,7 @@ https://drive.google.com/file/d/1eM9KVPcJkcgq3vynhQ--oPnTogmywrqP/view?usp=shari
       
 - [x] Detection test for `Yolo v3-tiny` with `detect_1` folder.
 
-       $ python detection.py --model_def config/cfg/yolo3d_yolov3_tiny.cfg --pretrained_path checkpoints/Model_yolo3d_yolov3_tiny.pth
+       $ python detection.py --model_def config/cfg/yolo3d_yolov4_tiny.cfg --pretrained_path checkpoints/Model_yolo3d_yolov4_tiny.pth
                     
 ### 3.4 Demo Video 
 - [x] One side detection demo.
