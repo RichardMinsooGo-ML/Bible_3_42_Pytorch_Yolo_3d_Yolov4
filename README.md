@@ -298,7 +298,6 @@ ${ROOT}
 │    ├── darknet_utils.py
 │    ├── darknet2pytorch.py
 │    ├── model_utils.py
-│    ├── models.py
 │    └── yolo_layer.py
 └── utils/ 
       ├── evaluation_utils.py
