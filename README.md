@@ -159,35 +159,35 @@ ${ROOT}
 
 ## 6. Train
 
-- [x] `Yolo3d - Yolo v3` training from `pretrained weight`.
+- [x] `Yolo3d - Yolo v4` training from `pretrained weight`.
 
-       $ python train.py --model_def config/cfg/yolo3d_yolov3.cfg --pretrained_path checkpoints/Model_yolo3d_yolov3.pth --save_path checkpoints/Model_yolo3d_yolov3.pth
+       $ python train.py --model_def config/cfg/yolo3d_yolov4.cfg --pretrained_path checkpoints/Model_yolo3d_yolov4.pth --save_path checkpoints/Model_yolo3d_yolov4.pth
        
        or
        
        $ python train.py
        
-- [x] `Yolo3d - Yolo v3` training from `darknet weight`.
+- [x] `Yolo3d - Yolo v4` training from `darknet weight`.
 
-       $ python train.py --model_def config/cfg/yolo3d_yolov3.cfg --pretrained_path checkpoints/yolov3.weights --save_path checkpoints/Model_yolo3d_yolov3.pth
+       $ python train.py --model_def config/cfg/yolo3d_yolov4.cfg --pretrained_path checkpoints/yolov4.weights --save_path checkpoints/Model_yolo3d_yolov4.pth
     
-- [x] `Yolo3d - Yolo v3-tiny` training from `pretrained weight`.
+- [x] `Yolo3d - Yolo v4-tiny` training from `pretrained weight`.
 
-       $ python train.py  --model_def config/cfg/yolo3d_yolov3_tiny.cfg --pretrained_path checkpoints/Model_yolo3d_yolov3_tiny.pth --save_path checkpoints/Model_yolo3d_yolov3_tiny.pth
+       $ python train.py  --model_def config/cfg/yolo3d_yolov4_tiny.cfg --pretrained_path checkpoints/Model_yolo3d_yolov4_tiny.pth --save_path checkpoints/Model_yolo3d_yolov4_tiny.pth
     
-- [x] `Yolo3d - Yolo v3-tiny` training from `darknet weight`.
+- [x] `Yolo3d - Yolo v4-tiny` training from `darknet weight`.
 
-       $ python train.py  --model_def config/cfg/yolo3d_yolov3_tiny.cfg --pretrained_path checkpoints/yolov3-tiny.weights --save_path checkpoints/Model_yolo3d_yolov3_tiny.pth
+       $ python train.py  --model_def config/cfg/yolo3d_yolov4_tiny.cfg --pretrained_path checkpoints/yolov4-tiny.weights --save_path checkpoints/Model_yolo3d_yolov4_tiny.pth
     
 ## 7. Evaluation
 
-- [x] `Yolo3d -  Yolo v3` evaluation.
+- [x] `Yolo3d -  Yolo v4` evaluation.
 
        $ python eval_mAP.py 
        
        or
        
-       $ python eval_mAP.py --model_def config/cfg/yolo3d_yolov3.cfg --pretrained_path checkpoints/Model_yolo3d_yolov3.pth
+       $ python eval_mAP.py --model_def config/cfg/yolo3d_yolov4.cfg --pretrained_path checkpoints/Model_yolo3d_yolov4.pth
 
 ```
       100%|██████████████████████████████████████████████████████████████████████████| 354/354 [02:50<00:00,  2.07it/s]
@@ -202,9 +202,9 @@ ${ROOT}
       mAP: 0.8877
 ``` 
     
-- [x] `Yolo3d -  Yolo v3 - tiny` evaluation.
+- [x] `Yolo3d -  Yolo v4 - tiny` evaluation.
 
-       $ python eval_mAP.py --model_def config/cfg/yolo3d_yolov3_tiny.cfg --pretrained_path checkpoints/Model_yolo3d_yolov3_tiny.pth
+       $ python eval_mAP.py --model_def config/cfg/yolo3d_yolov4_tiny.cfg --pretrained_path checkpoints/Model_yolo3d_yolov4_tiny.pth
     
 ```
       100%|████████████████████████████████████████████████████████████████████████████| 354/354 [01:37<00:00,  3.63it/s]
@@ -241,10 +241,10 @@ ${ROOT}
 ├── README.md 
 ├── train.py
 ├── checkpoints/ 
-│    ├── Model_yolo3d_yolov3.pth
-│    ├── Model_yolo3d_yolov3_tiny.pth
-│    ├── yolov3.weights
-│    └── yolov3-tiny.weights
+│    ├── Model_yolo3d_yolov4.pth
+│    ├── Model_yolo3d_yolov4_tiny.pth
+│    ├── yolov4.weights
+│    └── yolov4-tiny.weights
 ├── config/ 
 │    ├── cfg/
 │    │     ├── yolo3d_yolov3.cfg
