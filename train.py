@@ -88,8 +88,8 @@ def main():
     global_epoch = pickle.load(f)
     f.close()
     
-    # train_dataloader, train_sampler = create_train_dataloader(configs)
-    train_dataloader = create_val_dataloader(configs)
+    train_dataloader, train_sampler = create_train_dataloader(configs)
+    # train_dataloader = create_val_dataloader(configs)
     
     max_mAP = 0.5
         
