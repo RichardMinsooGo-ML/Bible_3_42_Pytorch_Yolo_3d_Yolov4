@@ -1,3 +1,6 @@
+### English Tutorial : https://wikidocs.net/181735
+### 한글 Tutorial : https://wikidocs.net/181709
+
 # Pytorch-Yolo-3d-Yolov4
 
 Complete but Unofficial PyTorch Implementation of 
